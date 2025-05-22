@@ -14,12 +14,12 @@ const EpisodeInfo = (props) => {
       <div className="pt-2 pb-8 flex justify-center">
         <iframe
           className="w-4/5 aspect-video sm: pr-4 pl-4"
-          src={`https://player.videasy.net/tv/${seriesId}/${episodeDetails.season_number}-${episodeDetails.episode_number}`}
+          src={`https://player.videasy.net/tv/${seriesId}/${episodeDetails.season_number}/${episodeDetails.episode_number}`}
           frameBorder={`0`}
           allowFullScreen={true}
         ></iframe>
         {/* working */}
-        {/* https://player.videasy.net/tv/${seriesId}/${episodeDetails.season_number}-${episodeDetails.episode_number} */}
+        {/* https://player.videasy.net/tv/${seriesId}/${episodeDetails.season_number}/${episodeDetails.episode_number} */}
         {/* https://vidsrc.to/embed/tv/${seriesId}/${episodeDetails.season_number}/${episodeDetails.episode_number} */}
         {/* https://v2.vidsrc.me/embed/${seriesId}/${episodeDetails.season_number}-${episodeDetails.episode_number} */}
         {/* not working */}
